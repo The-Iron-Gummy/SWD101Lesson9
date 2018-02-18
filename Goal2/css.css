@@ -1,0 +1,14 @@
+body{
+    background-color: steelblue;
+}
+form{
+    width: 400px;
+    background-color: steelblue;
+    color: white;
+}
+table{
+    width: 400px;
+    background-color: steelblue;
+    color: white;
+    font-family: Segoe UI;
+}

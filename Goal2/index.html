@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootsrap Goal1</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <a href="#" class="navbar-brand">Welcome</a>
+            </div>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                    <li>
+                        <a href="#">Profile</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Contact Us
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Phone</a>
+                            </li>
+                            <li>
+                                <a href="#">Email</a>
+                            </li>
+                            <li>
+                                <a href="#">Skype</a>
+                            </li>
+                            <li>
+                                <a href="#">IM</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p <span class="glyphicon glyphicon-search"></span></p>
+                        <input type="search" id="Search" placeholder="Search">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+        </div>
+            <div class="row">
+                <div class="col-md-6">
+        <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Amperage</th>
+                <th>Wire Length in Feet</th>
+                <th>Gauge</th>
+                <th>Wattage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10Amp</td>
+                <td>2'</td>
+                <td>16ga</td>
+                <td>120W</td>
+            </tr>
+            <tr>
+                <td>50Amp</td>
+                <td>10'</td>
+                <td>4ga</td>
+                <td>600W</td>
+            </tr>
+            <tr>
+                <td>140Amp</td>
+                <td>16'</td>
+                <td>1/0ga</td>
+                <td>1680W</td>
+            </tr>
+            <tr>
+                <td>250Amp</td>
+                <td>16'</td>
+                <td>3/0ga</td>
+                <td>3kW</td>
+            </tr>
+        </tbody>
+        </table>
+        <button type="button" class="btn btn-primary" id="recalculate">Recalculate</button>
+        <button type="button" class="btn btn-info">New Entry</button>
+        <button type="button" class="btn btn-success">Price Check</button>
+        </div>
+        <div class="col-md-6">
+        <form>
+            <div class="form-group">
+                <label for="FirstName">First Name</label>
+                <input type="name" class="form-control" id="first" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <label for="LastName">Last Name</label>
+                <input type="name" class="form-control" id="last" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <label for="PhoneNumber">Phone Number</label>
+                <input type="phone-number" class="form-control" id="phoneNumber" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" id="Email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="Time">Preferred Contact Time</label>
+                <input type="time" class="form-control" id="Time" placeholder="Time">
+            </div>
+            <div class="checkbox">
+                <label>
+                <input type="checkbox">AM</label>
+            </div>
+            <div class="checkbox">
+                    <label>
+                        <input type="checkbox">PM</label>
+                </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        </div>
+        </div>
+        </div>
+    <script src="js.js"></script>
+    </body>
+</html>

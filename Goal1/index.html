@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootsrap Goal1</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+        <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Amperage</th>
+                <th>Wire Length in Feet</th>
+                <th>Gauge</th>
+                <th>Wattage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10Amp</td>
+                <td>2'</td>
+                <td>16ga</td>
+                <td>120W</td>
+            </tr>
+            <tr>
+                <td>50Amp</td>
+                <td>10'</td>
+                <td>4ga</td>
+                <td>600W</td>
+            </tr>
+            <tr>
+                <td>140Amp</td>
+                <td>16'</td>
+                <td>1/0ga</td>
+                <td>1680W</td>
+            </tr>
+            <tr>
+                <td>250Amp</td>
+                <td>16'</td>
+                <td>3/0ga</td>
+                <td>3kW</td>
+            </tr>
+        </tbody>
+        </table>
+        <div id="myModal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">X</button>
+                            <h4 class="modal-title">Error!</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>This feature has not yet been added.<span class="glyphicon glyphicon-warning-sign"></span></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary" id="recalculate">Recalculate</button>
+    <script src="js.js"></script>
+    </body>
+</html>
